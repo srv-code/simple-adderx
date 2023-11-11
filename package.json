@@ -4,12 +4,14 @@
   "description": "Adds the parameters provided",
   "main": "index.js",
   "scripts": {
-    "start": "node src",
+    "build": "npx tsc",
+    "start": "npx tsc && node build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sourav Dey",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.9.0",
     "typescript": "^5.2.2"
   }
 }
