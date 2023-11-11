@@ -7,7 +7,7 @@
     "build": "npx tsc",
     "start": "npx tsc && node build",
     "start:dev": "npx nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx tsc && node build/examples"
   },
   "author": "Sourav Dey",
   "license": "ISC",
