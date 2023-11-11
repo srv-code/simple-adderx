@@ -1,5 +1,5 @@
 import { add } from '..';
 
 export default () => {
-  console.log(add('a', 'b'));
+  console.log('adding string types: ', add('a', 'b'));
 };

@@ -1,5 +1,5 @@
 import { add } from '..';
 
 export default () => {
-  console.log(add(2, 3));
+  console.log('adding number types: ', add(2, 3));
 };

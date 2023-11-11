@@ -2,7 +2,7 @@
   "name": "adder",
   "version": "1.0.0",
   "description": "Adds the parameters provided",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "npx tsc",
     "start": "npx tsc && node build",
