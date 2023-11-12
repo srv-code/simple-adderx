@@ -9,8 +9,17 @@
     "start:dev": "npx nodemon",
     "test": "npx tsc && node build/examples"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srv-code/simple-adderx"
+  },
+  "keywords": [
+    "test",
+    "adder"
+  ],
   "author": "Sourav Dey",
   "license": "ISC",
+  "homepage": "https://github.com/srv-code/simple-adderx#readme",
   "devDependencies": {
     "@types/node": "^20.9.0",
     "nodemon": "^3.0.1",
