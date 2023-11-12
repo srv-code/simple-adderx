@@ -1,6 +1,6 @@
 {
   "name": "simple-adderx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds the parameters provided",
   "main": "build/index.js",
   "scripts": {
